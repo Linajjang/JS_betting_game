@@ -10,15 +10,16 @@
 
   <h2> Betting guess game! </h2>
   <div>
-    <h3>Bankroll: $ <span id="bankRoll"></span></h3>
+    <h3>Bankroll: $ <span id='money'></span></h3>
     
     <form>
-      <h3>Bet ($5-10):</h3> 
-      <input id="amount" type="text" name="bet" placeholder="Bet money" /><br>
-      <h3>Guess number(1-10):</h3>
-      <input id="guessNumber" type="text" name="guess" placeholder="Guess number!" />
-      <input type="button" id="submit" name="submit" value="Submit"/>
+      <h3>Please bet between $5 and $10 :</h3> 
+      <input id='amount' type='text' name='bet' placeholder='Bet money' /><br>
+      <h3>Guess Number (1 - 10) :</h3>
+      <input id='guessNumber' type='text' name='guess' placeholder='Guess number!' />
+      <input type='button' id='submit' name='submit' value='Submit'/>
+      <input type='button' id='restart' style='display: none;' value='Restart'></button>
     </form>
   </div>
-  <p id="result"></p>
+  <p id='result'></p>
   </body>
